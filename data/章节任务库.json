@@ -1,0 +1,1439 @@
+{
+ "version": 1,
+ "source": "resources.assets TextAsset (Chapter + SubTask)",
+ "count": 83,
+ "chapters": [
+  {
+   "id": 101,
+   "Chapter": "YouGuCunSeries",
+   "Name": "TaskName01",
+   "Description": "TaskDescription01",
+   "subTaskIDs": [
+    1000,
+    1001,
+    1002,
+    1003
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": [
+    {
+     "needItemID": 1000,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1002,
+     "needItemCount": 2
+    }
+   ]
+  },
+  {
+   "id": 102,
+   "Chapter": "YouGuCunSeries",
+   "Name": "TaskName02",
+   "Description": "TaskDescription02",
+   "subTaskIDs": [
+    1004,
+    1005,
+    1006
+   ],
+   "giveExperience": 10,
+   "giveMoney": 10,
+   "giveItems": []
+  },
+  {
+   "id": 103,
+   "Chapter": "YouGuCunSeries",
+   "Name": "TaskName03",
+   "Description": "TaskDescription03",
+   "subTaskIDs": [
+    1007
+   ],
+   "giveExperience": 10,
+   "giveMoney": 20,
+   "giveItems": []
+  },
+  {
+   "id": 119,
+   "Chapter": "YouGuCunSeries",
+   "Name": "TaskName201",
+   "Description": "TaskDescription201",
+   "subTaskIDs": [
+    1008
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 104,
+   "Chapter": "YouGuCunSeries",
+   "Name": "TaskName04",
+   "Description": "TaskDescription04",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 20,
+   "giveMoney": 50,
+   "giveItems": []
+  },
+  {
+   "id": 105,
+   "Chapter": "YouGuCunSeries",
+   "Name": "TaskName05",
+   "Description": "TaskDescription05",
+   "subTaskIDs": [
+    1008
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 106,
+   "Chapter": "YouGuCunSeries",
+   "Name": "TaskName06",
+   "Description": "TaskDescription06",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 107,
+   "Chapter": "YouGuCunSeries",
+   "Name": "TaskName07",
+   "Description": "TaskDescription07",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 108,
+   "Chapter": "YouGuCunSeries",
+   "Name": "TaskName08",
+   "Description": "TaskDescription08",
+   "subTaskIDs": [
+    1009
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 109,
+   "Chapter": "YouGuCunSeries",
+   "Name": "TaskName09",
+   "Description": "TaskDescription09",
+   "subTaskIDs": [
+    1010
+   ],
+   "giveExperience": 50,
+   "giveMoney": 100,
+   "giveItems": []
+  },
+  {
+   "id": 111,
+   "Chapter": "YouGuCunSeries",
+   "Name": "TaskName091",
+   "Description": "TaskDescription092",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 203,
+   "Chapter": "SuWanNiangSeries",
+   "Name": "TaskName101",
+   "Description": "TaskDescription111",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 200,
+   "Chapter": "SuWanNiangSeries",
+   "Name": "TaskName10",
+   "Description": "TaskDescription11",
+   "subTaskIDs": [
+    2000
+   ],
+   "giveExperience": 20,
+   "giveMoney": 50,
+   "giveItems": []
+  },
+  {
+   "id": 204,
+   "Chapter": "SuWanNiangSeries",
+   "Name": "TaskName102",
+   "Description": "TaskDescription112",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 205,
+   "Chapter": "SuWanNiangSeries",
+   "Name": "TaskName103",
+   "Description": "TaskDescription113",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 201,
+   "Chapter": "SuWanNiangSeries",
+   "Name": "TaskName11",
+   "Description": "TaskDescription12",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 202,
+   "Chapter": "SuWanNiangSeries",
+   "Name": "TaskName12",
+   "Description": "TaskDescription13",
+   "subTaskIDs": [
+    2001,
+    2002
+   ],
+   "giveExperience": 50,
+   "giveMoney": 100,
+   "giveItems": []
+  },
+  {
+   "id": 401,
+   "Chapter": "WuXueZhiLuSeries",
+   "Name": "TaskName22",
+   "Description": "TaskDescription24",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 402,
+   "Chapter": "WuXueZhiLuSeries",
+   "Name": "TaskName23",
+   "Description": "TaskDescription25",
+   "subTaskIDs": [
+    3000,
+    3001
+   ],
+   "giveExperience": 20,
+   "giveMoney": 50,
+   "giveItems": []
+  },
+  {
+   "id": 403,
+   "Chapter": "WuXueZhiLuSeries",
+   "Name": "TaskName24",
+   "Description": "TaskDescription26",
+   "subTaskIDs": [
+    3000,
+    3001,
+    1008
+   ],
+   "giveExperience": 20,
+   "giveMoney": 0,
+   "giveItems": [
+    {
+     "needItemID": 1164,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1043,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1048,
+     "needItemCount": 1
+    }
+   ]
+  },
+  {
+   "id": 404,
+   "Chapter": "WuXueZhiLuSeries",
+   "Name": "TaskName25",
+   "Description": "TaskDescription27",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 20,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 405,
+   "Chapter": "WuXueZhiLuSeries",
+   "Name": "TaskName26",
+   "Description": "TaskDescription28",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 50,
+   "giveMoney": 0,
+   "giveItems": [
+    {
+     "needItemID": 1165,
+     "needItemCount": 1
+    }
+   ]
+  },
+  {
+   "id": 600,
+   "Chapter": "JianZongSeries",
+   "Name": "TaskName28",
+   "Description": "TaskDescription30",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 50,
+   "giveMoney": 80,
+   "giveItems": []
+  },
+  {
+   "id": 601,
+   "Chapter": "JianZongSeries",
+   "Name": "TaskName29",
+   "Description": "TaskDescription31",
+   "subTaskIDs": [
+    5001
+   ],
+   "giveExperience": 50,
+   "giveMoney": 80,
+   "giveItems": [
+    {
+     "needItemID": 1158,
+     "needItemCount": 1
+    }
+   ]
+  },
+  {
+   "id": 602,
+   "Chapter": "JianZongSeries",
+   "Name": "TaskName30",
+   "Description": "TaskDescription32",
+   "subTaskIDs": [
+    5002
+   ],
+   "giveExperience": 50,
+   "giveMoney": 100,
+   "giveItems": []
+  },
+  {
+   "id": 603,
+   "Chapter": "JianZongSeries",
+   "Name": "TaskName31",
+   "Description": "TaskDescription33",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 604,
+   "Chapter": "JianZongSeries",
+   "Name": "TaskName32",
+   "Description": "TaskDescription34",
+   "subTaskIDs": [
+    5004
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": [
+    {
+     "needItemID": 1161,
+     "needItemCount": 1
+    }
+   ]
+  },
+  {
+   "id": 605,
+   "Chapter": "JianZongSeries",
+   "Name": "TaskName33",
+   "Description": "TaskDescription35",
+   "subTaskIDs": [
+    3002
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 606,
+   "Chapter": "JianZongSeries",
+   "Name": "TaskName34",
+   "Description": "TaskDescription36",
+   "subTaskIDs": [
+    5006
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 607,
+   "Chapter": "JianZongSeries",
+   "Name": "TaskName35",
+   "Description": "TaskDescription37",
+   "subTaskIDs": [
+    5006
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 701,
+   "Chapter": "HongYanSeries",
+   "Name": "TaskName37",
+   "Description": "TaskDescription39",
+   "subTaskIDs": [
+    6010,
+    6011,
+    6012
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 702,
+   "Chapter": "HongYanSeries",
+   "Name": "TaskName38",
+   "Description": "TaskDescription40",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": [
+    {
+     "needItemID": 1133,
+     "needItemCount": 1
+    }
+   ]
+  },
+  {
+   "id": 703,
+   "Chapter": "HongYanSeries",
+   "Name": "TaskName39",
+   "Description": "TaskDescription41",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 80,
+   "giveMoney": 150,
+   "giveItems": []
+  },
+  {
+   "id": 704,
+   "Chapter": "HongYanSeries",
+   "Name": "TaskName40",
+   "Description": "TaskDescription42",
+   "subTaskIDs": [
+    6006
+   ],
+   "giveExperience": 80,
+   "giveMoney": 2000,
+   "giveItems": []
+  },
+  {
+   "id": 720,
+   "Chapter": "FengLinErSeries",
+   "Name": "TaskName42",
+   "Description": "TaskDescription44",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 721,
+   "Chapter": "FengLinErSeries",
+   "Name": "TaskName43",
+   "Description": "TaskDescription45",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 722,
+   "Chapter": "FengLinErSeries",
+   "Name": "TaskName44",
+   "Description": "TaskDescription46",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 20,
+   "giveMoney": 50,
+   "giveItems": []
+  },
+  {
+   "id": 723,
+   "Chapter": "FengLinErSeries",
+   "Name": "TaskName45",
+   "Description": "TaskDescription47",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 20,
+   "giveMoney": 50,
+   "giveItems": [
+    {
+     "needItemID": 1217,
+     "needItemCount": 1
+    }
+   ]
+  },
+  {
+   "id": 724,
+   "Chapter": "FengLinErSeries",
+   "Name": "TaskName46",
+   "Description": "TaskDescription48",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 725,
+   "Chapter": "FengLinErSeries",
+   "Name": "TaskName47",
+   "Description": "TaskDescription49",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 726,
+   "Chapter": "FengLinErSeries",
+   "Name": "TaskName48",
+   "Description": "TaskDescription50",
+   "subTaskIDs": [
+    6001,
+    6002
+   ],
+   "giveExperience": 20,
+   "giveMoney": 50,
+   "giveItems": []
+  },
+  {
+   "id": 727,
+   "Chapter": "FengLinErSeries",
+   "Name": "TaskName49",
+   "Description": "TaskDescription51",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 728,
+   "Chapter": "FengLinErSeries",
+   "Name": "TaskName50",
+   "Description": "TaskDescription52",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 729,
+   "Chapter": "FengLinErSeries",
+   "Name": "TaskName501",
+   "Description": "TaskDescription521",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 750,
+   "Chapter": "HuangChengSeries",
+   "Name": "TaskName51",
+   "Description": "TaskDescription53",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 751,
+   "Chapter": "HuangChengSeries",
+   "Name": "TaskName52",
+   "Description": "TaskDescription54",
+   "subTaskIDs": [
+    1101,
+    1102,
+    1103,
+    1104
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 752,
+   "Chapter": "HuangChengSeries",
+   "Name": "TaskName53",
+   "Description": "TaskDescription55",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 780,
+   "Chapter": "LinYaoSeries",
+   "Name": "TaskName55",
+   "Description": "TaskDescription57",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 781,
+   "Chapter": "LinYaoSeries",
+   "Name": "TaskName56",
+   "Description": "TaskDescription58",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 763,
+   "Chapter": "LinYaoSeries",
+   "Name": "TaskName554",
+   "Description": "TaskDescription574",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 782,
+   "Chapter": "LinYaoSeries",
+   "Name": "TaskName57",
+   "Description": "TaskDescription59",
+   "subTaskIDs": [
+    1008
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 783,
+   "Chapter": "LinYaoSeries",
+   "Name": "TaskName58",
+   "Description": "TaskDescription60",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 784,
+   "Chapter": "LinYaoSeries",
+   "Name": "TaskName59",
+   "Description": "TaskDescription61",
+   "subTaskIDs": [
+    7001,
+    7002,
+    7003
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 785,
+   "Chapter": "LinYaoSeries",
+   "Name": "TaskName60",
+   "Description": "TaskDescription62",
+   "subTaskIDs": [
+    7004
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 786,
+   "Chapter": "LinYaoSeries",
+   "Name": "TaskName61",
+   "Description": "TaskDescription63",
+   "subTaskIDs": [
+    7006
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 787,
+   "Chapter": "LinYaoSeries",
+   "Name": "TaskName62",
+   "Description": "TaskDescription64",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 788,
+   "Chapter": "LinYaoSeries",
+   "Name": "TaskName63",
+   "Description": "TaskDescription65",
+   "subTaskIDs": [
+    3003
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 1,
+   "Chapter": "zhixian",
+   "Name": "TaskName65",
+   "Description": "TaskDescription67",
+   "subTaskIDs": [
+    1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": [
+    {
+     "needItemID": 1224,
+     "needItemCount": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "Chapter": "zhixian",
+   "Name": "TaskName66",
+   "Description": "TaskDescription68",
+   "subTaskIDs": [
+    2001,
+    2
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 3,
+   "Chapter": "zhixian",
+   "Name": "TaskName67",
+   "Description": "TaskDescription69",
+   "subTaskIDs": [
+    3
+   ],
+   "giveExperience": 10,
+   "giveMoney": 10,
+   "giveItems": []
+  },
+  {
+   "id": 4,
+   "Chapter": "zhixian",
+   "Name": "TaskName68",
+   "Description": "TaskDescription70",
+   "subTaskIDs": [
+    2100,
+    2101
+   ],
+   "giveExperience": 20,
+   "giveMoney": 200,
+   "giveItems": [
+    {
+     "needItemID": 1129,
+     "needItemCount": 1
+    }
+   ]
+  },
+  {
+   "id": 250,
+   "Chapter": "LiuRuChengSeries",
+   "Name": "TaskName70",
+   "Description": "TaskDescription72",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 251,
+   "Chapter": "LiuRuChengSeries",
+   "Name": "TaskName71",
+   "Description": "TaskDescription73",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 252,
+   "Chapter": "LiuRuChengSeries",
+   "Name": "TaskName72",
+   "Description": "TaskDescription74",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 253,
+   "Chapter": "LiuRuChengSeries",
+   "Name": "TaskName73",
+   "Description": "TaskDescription75",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 254,
+   "Chapter": "LiuRuChengSeries",
+   "Name": "TaskName74",
+   "Description": "TaskDescription76",
+   "subTaskIDs": [
+    2203,
+    2204
+   ],
+   "giveExperience": 100,
+   "giveMoney": 500,
+   "giveItems": []
+  },
+  {
+   "id": 255,
+   "Chapter": "LiuRuChengSeries",
+   "Name": "TaskName75",
+   "Description": "TaskDescription77",
+   "subTaskIDs": [
+    2206
+   ],
+   "giveExperience": 50,
+   "giveMoney": 200,
+   "giveItems": []
+  },
+  {
+   "id": 256,
+   "Chapter": "LiuRuChengSeries",
+   "Name": "TaskName76",
+   "Description": "TaskDescription78",
+   "subTaskIDs": [
+    2201
+   ],
+   "giveExperience": 100,
+   "giveMoney": 300,
+   "giveItems": []
+  },
+  {
+   "id": 257,
+   "Chapter": "LiuRuChengSeries",
+   "Name": "TaskName77",
+   "Description": "TaskDescription79",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 258,
+   "Chapter": "LiuRuChengSeries",
+   "Name": "TaskName78",
+   "Description": "TaskDescription80",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 259,
+   "Chapter": "LiuRuChengSeries",
+   "Name": "TaskName79",
+   "Description": "TaskDescription81",
+   "subTaskIDs": [
+    2202
+   ],
+   "giveExperience": 50,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 260,
+   "Chapter": "LiuRuChengSeries",
+   "Name": "TaskName80",
+   "Description": "TaskDescription82",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 261,
+   "Chapter": "LiuRuChengSeries",
+   "Name": "TaskName81",
+   "Description": "TaskDescription83",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 267,
+   "Chapter": "LiuRuChengSeries",
+   "Name": "TaskName87",
+   "Description": "TaskDescription89",
+   "subTaskIDs": [
+    1008
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 262,
+   "Chapter": "LiuRuChengSeries",
+   "Name": "TaskName82",
+   "Description": "TaskDescription84",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 263,
+   "Chapter": "LiuRuChengSeries",
+   "Name": "TaskName83",
+   "Description": "TaskDescription85",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 264,
+   "Chapter": "LiuRuChengSeries",
+   "Name": "TaskName84",
+   "Description": "TaskDescription86",
+   "subTaskIDs": [
+    2205
+   ],
+   "giveExperience": 0,
+   "giveMoney": 0,
+   "giveItems": []
+  },
+  {
+   "id": 265,
+   "Chapter": "LiuRuChengSeries",
+   "Name": "TaskName85",
+   "Description": "TaskDescription87",
+   "subTaskIDs": [
+    -1
+   ],
+   "giveExperience": 200,
+   "giveMoney": 500,
+   "giveItems": []
+  },
+  {
+   "id": 266,
+   "Chapter": "LiuRuChengSeries",
+   "Name": "TaskName86",
+   "Description": "TaskDescription88",
+   "subTaskIDs": [
+    6002
+   ],
+   "giveExperience": 200,
+   "giveMoney": 500,
+   "giveItems": []
+  },
+  {
+   "id": 100000,
+   "Chapter": "Repeat",
+   "Name": "重复任务1",
+   "Description": "重复任务1描述",
+   "subTaskIDs": [
+    1008
+   ],
+   "giveExperience": 50,
+   "giveMoney": 200,
+   "giveItems": []
+  },
+  {
+   "id": 100001,
+   "Chapter": "Repeat",
+   "Name": "重复任务2",
+   "Description": "重复任务2描述",
+   "subTaskIDs": [
+    1008
+   ],
+   "giveExperience": 50,
+   "giveMoney": 200,
+   "giveItems": []
+  },
+  {
+   "id": 100002,
+   "Chapter": "Repeat",
+   "Name": "重复任务3",
+   "Description": "重复任务3描述",
+   "subTaskIDs": [
+    1008
+   ],
+   "giveExperience": 50,
+   "giveMoney": 200,
+   "giveItems": []
+  },
+  {
+   "id": 100003,
+   "Chapter": "Repeat",
+   "Name": "重复任务4",
+   "Description": "重复任务4描述",
+   "subTaskIDs": [
+    1008
+   ],
+   "giveExperience": 50,
+   "giveMoney": 200,
+   "giveItems": []
+  }
+ ],
+ "subtasks": [
+  {
+   "id": 1000,
+   "Description": "SubTaskDescription001",
+   "SubTaskType": "Click",
+   "Content": "WorkBench",
+   "Times": 1
+  },
+  {
+   "id": 1001,
+   "Description": "SubTaskDescription002",
+   "SubTaskType": "Click",
+   "Content": "FoodMaker",
+   "Times": 1
+  },
+  {
+   "id": 1002,
+   "Description": "SubTaskDescription003",
+   "SubTaskType": "Click",
+   "Content": "Chest",
+   "Times": 1
+  },
+  {
+   "id": 1003,
+   "Description": "SubTaskDescription004",
+   "SubTaskType": "Click",
+   "Content": "ClothChest",
+   "Times": 1
+  },
+  {
+   "id": 1004,
+   "Description": "SubTaskDescription005",
+   "SubTaskType": "Talk",
+   "Content": "300",
+   "Times": 1
+  },
+  {
+   "id": 1005,
+   "Description": "SubTaskDescription006",
+   "SubTaskType": "Talk",
+   "Content": "200",
+   "Times": 1
+  },
+  {
+   "id": 1006,
+   "Description": "SubTaskDescription007",
+   "SubTaskType": "Talk",
+   "Content": "400",
+   "Times": 1
+  },
+  {
+   "id": 1007,
+   "Description": "SubTaskDescription008",
+   "SubTaskType": "Have",
+   "Content": "1154",
+   "Times": 20
+  },
+  {
+   "id": 1008,
+   "Description": "SubTaskDescription009",
+   "SubTaskType": "Sleep",
+   "Content": "Sleep",
+   "Times": 1
+  },
+  {
+   "id": 1009,
+   "Description": "SubTaskDescription010",
+   "SubTaskType": "Have",
+   "Content": "1109",
+   "Times": 5
+  },
+  {
+   "id": 1010,
+   "Description": "SubTaskDescription011",
+   "SubTaskType": "Have",
+   "Content": "1109",
+   "Times": 10
+  },
+  {
+   "id": 2000,
+   "Description": "SubTaskDescription012",
+   "SubTaskType": "Click",
+   "Content": "Shit",
+   "Times": 5
+  },
+  {
+   "id": 2001,
+   "Description": "SubTaskDescription013",
+   "SubTaskType": "Have",
+   "Content": "1116",
+   "Times": 50
+  },
+  {
+   "id": 2002,
+   "Description": "SubTaskDescription014",
+   "SubTaskType": "Have",
+   "Content": "1108",
+   "Times": 20
+  },
+  {
+   "id": 3000,
+   "Description": "SubTaskDescription015",
+   "SubTaskType": "Have",
+   "Content": "1058",
+   "Times": 1
+  },
+  {
+   "id": 3001,
+   "Description": "SubTaskDescription016",
+   "SubTaskType": "Have",
+   "Content": "1053",
+   "Times": 1
+  },
+  {
+   "id": 3002,
+   "Description": "SubTaskDescription017",
+   "SubTaskType": "Have",
+   "Content": "1124",
+   "Times": 1
+  },
+  {
+   "id": 3003,
+   "Description": "SubTaskDescription0171",
+   "SubTaskType": "Have",
+   "Content": "1125",
+   "Times": 1
+  },
+  {
+   "id": 5001,
+   "Description": "SubTaskDescription018",
+   "SubTaskType": "Have",
+   "Content": "1126",
+   "Times": 8
+  },
+  {
+   "id": 5002,
+   "Description": "SubTaskDescription019",
+   "SubTaskType": "Have",
+   "Content": "1057",
+   "Times": 10
+  },
+  {
+   "id": 5003,
+   "Description": "SubTaskDescription020",
+   "SubTaskType": "Talk",
+   "Content": "1029",
+   "Times": 1
+  },
+  {
+   "id": 5004,
+   "Description": "SubTaskDescription021",
+   "SubTaskType": "Have",
+   "Content": "1057",
+   "Times": 3
+  },
+  {
+   "id": 5005,
+   "Description": "SubTaskDescription022",
+   "SubTaskType": "Level",
+   "Content": "1000",
+   "Times": 1
+  },
+  {
+   "id": 5006,
+   "Description": "SubTaskDescription023",
+   "SubTaskType": "Have",
+   "Content": "1056",
+   "Times": 1
+  },
+  {
+   "id": 6001,
+   "Description": "SubTaskDescription024",
+   "SubTaskType": "Have",
+   "Content": "1218",
+   "Times": 2
+  },
+  {
+   "id": 6002,
+   "Description": "SubTaskDescription025",
+   "SubTaskType": "Have",
+   "Content": "1219",
+   "Times": 2
+  },
+  {
+   "id": 6010,
+   "Description": "SubTaskDescription026",
+   "SubTaskType": "Talk",
+   "Content": "5080",
+   "Times": 1
+  },
+  {
+   "id": 6011,
+   "Description": "SubTaskDescription027",
+   "SubTaskType": "Talk",
+   "Content": "5081",
+   "Times": 1
+  },
+  {
+   "id": 6012,
+   "Description": "SubTaskDescription028",
+   "SubTaskType": "Talk",
+   "Content": "5082",
+   "Times": 1
+  },
+  {
+   "id": 6006,
+   "Description": "SubTaskDescription029",
+   "SubTaskType": "Have",
+   "Content": "1056",
+   "Times": 20
+  },
+  {
+   "id": 1,
+   "Description": "SubTaskDescription030",
+   "SubTaskType": "Have",
+   "Content": "1134",
+   "Times": 30
+  },
+  {
+   "id": 2,
+   "Description": "SubTaskDescription031",
+   "SubTaskType": "Have",
+   "Content": "1145",
+   "Times": 10
+  },
+  {
+   "id": 3,
+   "Description": "SubTaskDescription032",
+   "SubTaskType": "Have",
+   "Content": "1153",
+   "Times": 1
+  },
+  {
+   "id": 1101,
+   "Description": "SubTaskDescription033",
+   "SubTaskType": "Click",
+   "Content": "XianSuo1",
+   "Times": 1
+  },
+  {
+   "id": 1102,
+   "Description": "SubTaskDescription034",
+   "SubTaskType": "Click",
+   "Content": "XianSuo2",
+   "Times": 1
+  },
+  {
+   "id": 1103,
+   "Description": "SubTaskDescription035",
+   "SubTaskType": "Click",
+   "Content": "XianSuo3",
+   "Times": 1
+  },
+  {
+   "id": 1104,
+   "Description": "SubTaskDescription036",
+   "SubTaskType": "Click",
+   "Content": "XianSuo4",
+   "Times": 1
+  },
+  {
+   "id": 7001,
+   "Description": "SubTaskDescription037",
+   "SubTaskType": "Have",
+   "Content": "1084",
+   "Times": 1
+  },
+  {
+   "id": 7002,
+   "Description": "SubTaskDescription038",
+   "SubTaskType": "Have",
+   "Content": "1053",
+   "Times": 1
+  },
+  {
+   "id": 7003,
+   "Description": "SubTaskDescription039",
+   "SubTaskType": "Have",
+   "Content": "1002",
+   "Times": 1
+  },
+  {
+   "id": 7004,
+   "Description": "SubTaskDescription040",
+   "SubTaskType": "Click",
+   "Content": "HanFei",
+   "Times": 10
+  },
+  {
+   "id": 7005,
+   "Description": "SubTaskDescription041",
+   "SubTaskType": "Skill",
+   "Content": "1165",
+   "Times": 4
+  },
+  {
+   "id": 7006,
+   "Description": "SubTaskDescription042",
+   "SubTaskType": "Have",
+   "Content": "1106",
+   "Times": 3
+  },
+  {
+   "id": 2100,
+   "Description": "SubTaskDescription043",
+   "SubTaskType": "Have",
+   "Content": "1134",
+   "Times": 20
+  },
+  {
+   "id": 2101,
+   "Description": "SubTaskDescription044",
+   "SubTaskType": "Have",
+   "Content": "1145",
+   "Times": 8
+  },
+  {
+   "id": 2201,
+   "Description": "SubTaskDescription045",
+   "SubTaskType": "Have",
+   "Content": "1227",
+   "Times": 1
+  },
+  {
+   "id": 2202,
+   "Description": "SubTaskDescription046",
+   "SubTaskType": "Have",
+   "Content": "1056",
+   "Times": 3
+  },
+  {
+   "id": 2203,
+   "Description": "SubTaskDescription047",
+   "SubTaskType": "Have",
+   "Content": "1192",
+   "Times": 3
+  },
+  {
+   "id": 2204,
+   "Description": "SubTaskDescription048",
+   "SubTaskType": "Have",
+   "Content": "1169",
+   "Times": 10
+  },
+  {
+   "id": 2205,
+   "Description": "SubTaskDescription049",
+   "SubTaskType": "Have",
+   "Content": "1228",
+   "Times": 1
+  },
+  {
+   "id": 2206,
+   "Description": "SubTaskDescription050",
+   "SubTaskType": "Have",
+   "Content": "1184",
+   "Times": 10
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "version": 1,
+ "source": "resources.assets TextAsset (farm)",
+ "count": 12,
+ "crops": [
+  {
+   "id": 1112,
+   "name": "干草",
+   "nameKey": "MuCao",
+   "animName": "cao",
+   "Level": 1,
+   "experience": 1,
+   "growTime": 18,
+   "dropID": 1034,
+   "dropCount": 10
+  },
+  {
+   "id": 1155,
+   "name": "小麦",
+   "nameKey": "XiaoMai",
+   "animName": "shuidao",
+   "Level": 1,
+   "experience": 3,
+   "growTime": 18,
+   "dropID": 1154,
+   "dropCount": 4
+  },
+  {
+   "id": 1104,
+   "name": "萝卜",
+   "nameKey": "LuoMo",
+   "animName": "luobo",
+   "Level": 1,
+   "experience": 3,
+   "growTime": 18,
+   "dropID": 1103,
+   "dropCount": 3
+  },
+  {
+   "id": 1036,
+   "name": "甘蔗",
+   "nameKey": "GanZhe",
+   "animName": "ganzhe",
+   "Level": 1,
+   "experience": 4,
+   "growTime": 18,
+   "dropID": 1035,
+   "dropCount": 4
+  },
+  {
+   "id": 1086,
+   "name": "辣椒",
+   "nameKey": "LaJiao",
+   "animName": "lajiao",
+   "Level": 2,
+   "experience": 10,
+   "growTime": 24,
+   "dropID": 1085,
+   "dropCount": 4
+  },
+  {
+   "id": 1157,
+   "name": "番茄",
+   "nameKey": "FanQie",
+   "animName": "fanqie",
+   "Level": 2,
+   "experience": 10,
+   "growTime": 24,
+   "dropID": 1156,
+   "dropCount": 5
+  },
+  {
+   "id": 1120,
+   "name": "茄子",
+   "nameKey": "QieZi",
+   "animName": "qiezi",
+   "Level": 2,
+   "experience": 10,
+   "growTime": 24,
+   "dropID": 1119,
+   "dropCount": 8
+  },
+  {
+   "id": 1127,
+   "name": "人参",
+   "nameKey": "RenShen",
+   "animName": "xiaohonghua",
+   "Level": 3,
+   "experience": 20,
+   "growTime": 36,
+   "dropID": 1126,
+   "dropCount": 4
+  },
+  {
+   "id": 1185,
+   "name": "断续花(紫花)",
+   "nameKey": "ZiHua",
+   "animName": "honghua",
+   "Level": 3,
+   "experience": 30,
+   "growTime": 36,
+   "dropID": 1184,
+   "dropCount": 3
+  },
+  {
+   "id": 1204,
+   "name": "断肠草",
+   "nameKey": "DuanChangCao",
+   "animName": "xiaohuanghua",
+   "Level": 3,
+   "experience": 20,
+   "growTime": 36,
+   "dropID": 1203,
+   "dropCount": 5
+  },
+  {
+   "id": 1206,
+   "name": "彼岸花",
+   "nameKey": "BiAnHua",
+   "animName": "binghua",
+   "Level": 4,
+   "experience": 50,
+   "growTime": 48,
+   "dropID": 1205,
+   "dropCount": 1
+  },
+  {
+   "id": 1088,
+   "name": "兰花",
+   "nameKey": "lanhua",
+   "animName": "binghua",
+   "Level": 3,
+   "experience": 30,
+   "growTime": 36,
+   "dropID": 1087,
+   "dropCount": 3
+  }
+ ]
+}

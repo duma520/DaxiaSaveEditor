@@ -1,0 +1,90 @@
+{
+ "说明": "本文件记录 data\\ 下各数据表的来源，供游戏更新后重做数据表时对照。",
+ "生成时间": "2026-09-20",
+ "生成工具": "_scaffold\\extract_assets_json.py + _scaffold\\build_libs.py",
+ "游戏": {
+  "名称": "大侠狂想曲",
+  "引擎": "Unity",
+  "根目录": "d:\\GAME_H\\2_Img\\大侠狂想曲\\大侠狂想曲",
+  "存档目录": "大侠狂想曲_Data\\Data\\Save",
+  "数据来源文件": "大侠狂想曲_Data\\resources.assets",
+  "数据来源大小": 137221508,
+  "原理": "游戏把 Excel 转成的 JSON 以【明文 TextAsset】存在 resources.assets 里，形如 pretty-print 的 [\\n  {\\n    \"id\": ...，用括号配平+json.loads 校验即可整段抠出"
+ },
+ "数据表": [
+  {
+   "产物": "data\\物品库.json",
+   "顶层键": "items",
+   "条数": 176,
+   "来源片段": "429_items_d164fd.json",
+   "sourceoffset": 105017672,
+   "字段": ["id", "name", "nameKey", "MakeTime", "spriteName", "descriptionID", "type", "itemTypeShow", "itemType", "level", "giftValue", "sellValue", "buyValue"]
+  },
+  {
+   "产物": "data\\装备属性库.json",
+   "顶层键": "props",
+   "条数": 20,
+   "来源片段": ["388_list_armor_attack_crit_20f065.json(offset=102519006, 6条)", "606_list_armor_attack_crit_1318a8.json(offset=105203520, 20条)"],
+   "字段": ["id", "name", "keyName", "minAttack", "maxAttack", "attack", "minArmor", "maxArmor", "armor", "crit", "critHit", "moveSpeed", "dodge", "maxHP", "maxMP(部分)"]
+  },
+  {
+   "产物": "data\\配方库.json",
+   "顶层键": "recipes",
+   "条数": 40,
+   "来源片段": "392_recipes_31109b.json",
+   "sourceoffset": 105003082,
+   "字段": ["id", "name", "type", "makeTime", "recipeID", "ingredients[{needItemID,needItemCount}]"]
+  },
+  {
+   "产物": "data\\农作库.json",
+   "顶层键": "crops",
+   "条数": 12,
+   "来源片段": "764_farm_d8c982.json",
+   "sourceoffset": 106701560,
+   "字段": ["id", "name", "nameKey", "animName", "Level", "experience", "growTime", "dropID", "dropCount"]
+  },
+  {
+   "产物": "data\\NPC库.json",
+   "顶层键": "npcs",
+   "条数": 85,
+   "来源片段": ["678_list_Illustration_canChangeCloth_canSelectGirl_13c79e.json(offset=106526096, 85条 NPC 主表)", "650_list_Illustration_id_name_3f54fd.json(offset=105984954, 103条 立绘表，提供中文名)"],
+   "字段": ["id", "key(拼音)", "name(中文)", "illustration", "storeID", "canSendGift", "canSelectGirl", "isGirl", "manualType", "sendGiftDialogueID", "sleepDialogueID", "showInMap", "dialogues", "favorEvents"],
+   "备注": "中文名由 roleID(拼音)→中文名 反查得到；85 个中 69 个成功，16 个游戏原始表里就没有名字。"
+  },
+  {
+   "产物": "data\\章节任务库.json",
+   "顶层键": ["chapters", "subtasks"],
+   "条数": [83, 51],
+   "来源片段": ["652_list_Chapter_Description_Name_8527d3.json(offset=106069008)", "648_list_Content_Description_SubTaskType_b802ec.json(offset=105304746)"],
+   "字段": ["章节: id/Chapter/Name/Description/subTaskIDs/giveExperience/giveMoney/giveItems", "子任务: id/Description/SubTaskType/Content/Times"]
+  },
+  {
+   "产物": "data\\状态库.json",
+   "顶层键": "buffs",
+   "条数": 18,
+   "来源片段": "372_list_buffType_cdTime_durationTime_1e55cb.json",
+   "sourceoffset": 101886458,
+   "字段": ["id", "buffType", "cdTime", "durationTime", "list_attributes"]
+  },
+  {
+   "产物": "data\\场景库.json",
+   "顶层键": "scenes",
+   "条数": 57,
+   "来源片段": "非数据表，来自 4 个真实存档的 activeScene ∪ ListScene ∪ PlayerScene 并集",
+   "备注": "游戏场景标识符（Unity 场景名），如 ZhuJueJia / FengMinYuan2 / YouGuCun。"
+  }
+ ],
+ "重做步骤": [
+  "1. 确认游戏目录未变（若变了改 build_libs.py 里的路径常量）",
+  "2. python _scaffold\\extract_assets_json.py   # 重新抠出 assets_json\\（约 776 段）",
+  "3. python _scaffold\\build_libs.py             # 重新生成 data\\*.json",
+  "4. python _scaffold\\probe_structure.py        # 复核存档字段并集",
+  "5. python _scaffold\\smoke_test.py             # 读 _scaffold\\_smoke_out.txt，需『全部通过』",
+  "6. 若条目数变化，同步更新本文件、软件升级迭代记录.md 第六章与 __version__"
+ ],
+ "未采用的表": [
+  "106_/107_/108_ 系列的 dict_infos 是上面各表的外层 {infos:[...]} 包装，内容重复",
+  "7xx 系列的 dict_Illustration_canChangeCloth_* 是 per-NPC 的对话/好感事件子表，暂未使用",
+  "376_list_desID_desName_infos / 662_list_description_id_list_items / 627_list_icon_id_levelAttribute 等 UI/说明类表，暂未使用"
+ ]
+}

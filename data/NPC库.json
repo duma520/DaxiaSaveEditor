@@ -1,0 +1,1621 @@
+{
+ "version": 1,
+ "source": "resources.assets TextAsset (NPC) + Illustration 映射",
+ "count": 85,
+ "npcs": [
+  {
+   "id": 1,
+   "key": "NanZhu",
+   "name": "",
+   "illustration": "zhujue1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1043,
+   "key": "LaoBao",
+   "name": "老鸨",
+   "illustration": "laobao",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": true,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9360
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1001,
+   "key": "CunZhang",
+   "name": "村长",
+   "illustration": "cunzhang",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9271,
+    9272
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1002,
+   "key": "ZhaoEr",
+   "name": "赵二",
+   "illustration": "zhaoer",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9280,
+    9281
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1003,
+   "key": "XiaoHaiGe",
+   "name": "小孩哥",
+   "illustration": "xiaonanhai",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9470
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1004,
+   "key": "Apo",
+   "name": "阿婆",
+   "illustration": "apo",
+   "storeID": 1000,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9968
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1005,
+   "key": "SuWanNiang",
+   "name": "苏婉娘",
+   "illustration": "su",
+   "storeID": -1,
+   "canSendGift": true,
+   "canSelectGirl": false,
+   "isGirl": true,
+   "manualType": "",
+   "sendGiftDialogueID": 9211,
+   "sleepDialogueID": 9212,
+   "showInMap": true,
+   "dialogues": [
+    9210
+   ],
+   "favorEvents": [
+    {
+     "x": 20,
+     "y": 1600
+    },
+    {
+     "x": 40,
+     "y": 1720
+    },
+    {
+     "x": 60,
+     "y": 1750
+    }
+   ]
+  },
+  {
+   "id": 1006,
+   "key": "Axiang",
+   "name": "阿祥",
+   "illustration": "axiang",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9260,
+    9261
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1007,
+   "key": "WangShiFu",
+   "name": "王师傅",
+   "illustration": "wangshifu",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "BuildingOne",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9290,
+    9291
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1008,
+   "key": "FengLingEr",
+   "name": "风铃儿",
+   "illustration": "fenglinger",
+   "storeID": -1,
+   "canSendGift": true,
+   "canSelectGirl": false,
+   "isGirl": true,
+   "manualType": "",
+   "sendGiftDialogueID": 9203,
+   "sleepDialogueID": 9204,
+   "showInMap": true,
+   "dialogues": [
+    9200,
+    9201,
+    9202
+   ],
+   "favorEvents": [
+    {
+     "x": 20,
+     "y": 2450
+    },
+    {
+     "x": 40,
+     "y": 2620
+    },
+    {
+     "x": 60,
+     "y": 2700
+    }
+   ]
+  },
+  {
+   "id": 1009,
+   "key": "LinYao",
+   "name": "林瑶",
+   "illustration": "linyao",
+   "storeID": -1,
+   "canSendGift": true,
+   "canSelectGirl": false,
+   "isGirl": true,
+   "manualType": "",
+   "sendGiftDialogueID": 9232,
+   "sleepDialogueID": 9233,
+   "showInMap": true,
+   "dialogues": [
+    9230,
+    9231
+   ],
+   "favorEvents": [
+    {
+     "x": 25,
+     "y": 6230
+    },
+    {
+     "x": 50,
+     "y": 6430
+    },
+    {
+     "x": 75,
+     "y": 6600
+    }
+   ]
+  },
+  {
+   "id": 1010,
+   "key": "HongYan",
+   "name": "洪嫣",
+   "illustration": "hongyan",
+   "storeID": -1,
+   "canSendGift": true,
+   "canSelectGirl": false,
+   "isGirl": true,
+   "manualType": "",
+   "sendGiftDialogueID": 9242,
+   "sleepDialogueID": 9243,
+   "showInMap": true,
+   "dialogues": [
+    9240,
+    9241
+   ],
+   "favorEvents": [
+    {
+     "x": 25,
+     "y": 5300
+    },
+    {
+     "x": 50,
+     "y": 5400
+    },
+    {
+     "x": 75,
+     "y": 5500
+    }
+   ]
+  },
+  {
+   "id": 1011,
+   "key": "LiuRuChen",
+   "name": "柳如尘",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": true,
+   "canSelectGirl": false,
+   "isGirl": true,
+   "manualType": "",
+   "sendGiftDialogueID": 9252,
+   "sleepDialogueID": 9253,
+   "showInMap": true,
+   "dialogues": [
+    9250,
+    9251
+   ],
+   "favorEvents": [
+    {
+     "x": 25,
+     "y": 7600
+    },
+    {
+     "x": 50,
+     "y": 7650
+    },
+    {
+     "x": 75,
+     "y": 7830
+    }
+   ]
+  },
+  {
+   "id": 1012,
+   "key": "HuangQuanGuiMu",
+   "name": "",
+   "illustration": "huangquannvwang",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1013,
+   "key": "OuYangYue",
+   "name": "",
+   "illustration": "ouyangyue",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1014,
+   "key": "XuanYanYu",
+   "name": "玄烟雨",
+   "illustration": "xuanyanyu",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9920
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1015,
+   "key": "ABin",
+   "name": "阿斌",
+   "illustration": "abin",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9390,
+    9391
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1016,
+   "key": "ZhaoJinXi",
+   "name": "赵景熙",
+   "illustration": "zhaojingxi",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9900
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1017,
+   "key": "ChuTianXing",
+   "name": "楚天行",
+   "illustration": "chutianxing",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9950
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1018,
+   "key": "FangZiRan",
+   "name": "方子然",
+   "illustration": "fangziran",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9350,
+    9351
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1019,
+   "key": "MoLi",
+   "name": "茉莉",
+   "illustration": "moli",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9460,
+    9461
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1020,
+   "key": "GuoShanHu",
+   "name": "过山虎",
+   "illustration": "guoshanhu",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9380
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1021,
+   "key": "HanBi",
+   "name": "韩弼",
+   "illustration": "hanbi",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9945,
+    9946
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1022,
+   "key": "HeiYiRen",
+   "name": "",
+   "illustration": "heiyiren",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1023,
+   "key": "HongLie",
+   "name": "洪烈",
+   "illustration": "honglie",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9370
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1024,
+   "key": "SuiFengYang",
+   "name": "随风扬",
+   "illustration": "suifengyang",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9300,
+    9301
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1025,
+   "key": "TaiRiTian",
+   "name": "泰日天",
+   "illustration": "tairitian",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9330
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1026,
+   "key": "JiWang",
+   "name": "鸡王",
+   "illustration": "jiwang",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9320,
+    9321
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1027,
+   "key": "JiBa",
+   "name": "鸡霸",
+   "illustration": "jiba",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9310,
+    9311
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1028,
+   "key": "XiaoJu",
+   "name": "小橘",
+   "illustration": "xiaoju",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9940
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1029,
+   "key": "XiaoChuan",
+   "name": "小川",
+   "illustration": "xiaochuan",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9450
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1030,
+   "key": "XiaoTao",
+   "name": "小桃",
+   "illustration": "xiaotao",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9420
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1031,
+   "key": "WuYa",
+   "name": "乌鸦",
+   "illustration": "wuya",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9410
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1032,
+   "key": "LiuSan",
+   "name": "刘三",
+   "illustration": "liusan",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9400,
+    9401
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1033,
+   "key": "ShenHuaiShan",
+   "name": "沈怀善",
+   "illustration": "shenhuaishan",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9910
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1034,
+   "key": "HeiShang",
+   "name": "黑商",
+   "illustration": "heishang",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9960
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1035,
+   "key": "DiZiJia",
+   "name": "弟子甲",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9858
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1036,
+   "key": "DiZiYi",
+   "name": "弟子乙",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9858
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1037,
+   "key": "DiZiBing",
+   "name": "",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9855
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1038,
+   "key": "TuFeiJia",
+   "name": "土匪",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1039,
+   "key": "TuFeiYi",
+   "name": "土匪",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1040,
+   "key": "LaoBan",
+   "name": "老板",
+   "illustration": "laoban",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9430
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1041,
+   "key": "LiFuGui",
+   "name": "李富贵",
+   "illustration": "lifugui",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9955
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1044,
+   "key": "XuanQing",
+   "name": "",
+   "illustration": "xuanqing",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1045,
+   "key": "XuanCheng",
+   "name": "玄辰",
+   "illustration": "xuancheng",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9935
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1046,
+   "key": "XuanYi",
+   "name": "玄逸",
+   "illustration": "xuanyi",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9930
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1047,
+   "key": "XuanJi",
+   "name": "玄机",
+   "illustration": "xuanji",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9340,
+    9341
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1048,
+   "key": "ShenMiRen",
+   "name": "",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1049,
+   "key": "MianZunZhe",
+   "name": "",
+   "illustration": "mianzunzhe",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1050,
+   "key": "ShiBingJia",
+   "name": "士兵甲",
+   "illustration": "shibing",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9804
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1051,
+   "key": "ShiBingYi",
+   "name": "官兵",
+   "illustration": "shibing",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9803
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1052,
+   "key": "TieJiang",
+   "name": "铁匠",
+   "illustration": "tiejiang",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "BuildingTwo",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9440
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1053,
+   "key": "ShangFan",
+   "name": "商贩",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1054,
+   "key": "SuLi",
+   "name": "",
+   "illustration": "suli",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1055,
+   "key": "PangBai",
+   "name": "",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1056,
+   "key": "ShiBaTian",
+   "name": "",
+   "illustration": "shibatian",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1057,
+   "key": "YangWei",
+   "name": "",
+   "illustration": "yangwei",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1058,
+   "key": "FeiFei",
+   "name": "",
+   "illustration": "feifei",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9460
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1059,
+   "key": "XiaoEr",
+   "name": "小二",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1060,
+   "key": "ShangFan3",
+   "name": "商贩",
+   "illustration": "apo",
+   "storeID": 1007,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9817
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1061,
+   "key": "ZaHuoDian",
+   "name": "老板",
+   "illustration": "laoban",
+   "storeID": 1001,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9430
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1062,
+   "key": "XuDaiFu",
+   "name": "药店",
+   "illustration": "",
+   "storeID": 1002,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9431
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1063,
+   "key": "BaiBaoGe",
+   "name": "老板",
+   "illustration": "laoban",
+   "storeID": 1006,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9430,
+    9431
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1064,
+   "key": "HeiShang1",
+   "name": "黑商",
+   "illustration": "heishang",
+   "storeID": 1003,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9969
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1065,
+   "key": "HeiShang2",
+   "name": "黑商",
+   "illustration": "heishang",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9969
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1066,
+   "key": "HeiShang3",
+   "name": "黑商",
+   "illustration": "heishang",
+   "storeID": 1005,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9969
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1067,
+   "key": "TuPo",
+   "name": "",
+   "illustration": "",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1068,
+   "key": "TiShi",
+   "name": "",
+   "illustration": "",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1069,
+   "key": "diziyi",
+   "name": "弟子乙",
+   "illustration": "",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9855
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1070,
+   "key": "DiZiYi",
+   "name": "弟子乙",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9854
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1071,
+   "key": "DiZiYi",
+   "name": "弟子乙",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9852
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1072,
+   "key": "DiZiYi",
+   "name": "弟子乙",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9852
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1073,
+   "key": "DiZiYi",
+   "name": "弟子乙",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9852
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1074,
+   "key": "DiZiYi",
+   "name": "弟子乙",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9853
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1075,
+   "key": "DiZiYi",
+   "name": "弟子乙",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9853
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1076,
+   "key": "DiZiYi",
+   "name": "弟子乙",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9853
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1077,
+   "key": "LuRen",
+   "name": "路人",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9808
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1078,
+   "key": "LuRen",
+   "name": "路人",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9809
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1079,
+   "key": "LuRen",
+   "name": "路人",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9801
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1080,
+   "key": "LuRen",
+   "name": "路人",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    9802
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1081,
+   "key": "TiShi2",
+   "name": "",
+   "illustration": "",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1082,
+   "key": "ShiBing1",
+   "name": "士兵",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1083,
+   "key": "ShiBing2",
+   "name": "士兵",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1084,
+   "key": "ShiBing3",
+   "name": "士兵",
+   "illustration": "-1",
+   "storeID": -1,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": false,
+   "dialogues": [
+    -1
+   ],
+   "favorEvents": []
+  },
+  {
+   "id": 1085,
+   "key": "HeiShang4",
+   "name": "黑商",
+   "illustration": "heishang",
+   "storeID": 1008,
+   "canSendGift": false,
+   "canSelectGirl": false,
+   "isGirl": false,
+   "manualType": "",
+   "sendGiftDialogueID": -1,
+   "sleepDialogueID": -1,
+   "showInMap": true,
+   "dialogues": [
+    9969
+   ],
+   "favorEvents": []
+  }
+ ]
+}

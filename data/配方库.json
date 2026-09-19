@@ -1,0 +1,743 @@
+{
+ "version": 1,
+ "source": "resources.assets TextAsset (recipes)",
+ "count": 40,
+ "recipes": [
+  {
+   "id": 1214,
+   "name": "粗布衣",
+   "type": "Workbench",
+   "makeTime": 0,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1171,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1108,
+     "needItemCount": 2
+    }
+   ]
+  },
+  {
+   "id": 1213,
+   "name": "虎皮衣",
+   "type": "Workbench",
+   "makeTime": 0,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1060,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1108,
+     "needItemCount": 3
+    }
+   ]
+  },
+  {
+   "id": 1108,
+   "name": "麻绳",
+   "type": "Workbench",
+   "makeTime": 0,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1034,
+     "needItemCount": 2
+    }
+   ]
+  },
+  {
+   "id": 1110,
+   "name": "面粉",
+   "type": "Workbench",
+   "makeTime": 0,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1154,
+     "needItemCount": 1
+    }
+   ]
+  },
+  {
+   "id": 1207,
+   "name": "木剑",
+   "type": "Workbench",
+   "makeTime": 0,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1116,
+     "needItemCount": 5
+    }
+   ]
+  },
+  {
+   "id": 1139,
+   "name": "糖",
+   "type": "Workbench",
+   "makeTime": 0,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1035,
+     "needItemCount": 1
+    }
+   ]
+  },
+  {
+   "id": 1051,
+   "name": "龟甲丹",
+   "type": "MedicineFurnace",
+   "makeTime": 2,
+   "recipeID": 1163,
+   "ingredients": [
+    {
+     "needItemID": 1117,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1203,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 2
+    }
+   ]
+  },
+  {
+   "id": 1123,
+   "name": "太极神丹",
+   "type": "MedicineFurnace",
+   "makeTime": 4,
+   "recipeID": 1162,
+   "ingredients": [
+    {
+     "needItemID": 1109,
+     "needItemCount": 4
+    }
+   ]
+  },
+  {
+   "id": 1140,
+   "name": "天香断续丹",
+   "type": "MedicineFurnace",
+   "makeTime": 3,
+   "recipeID": 1160,
+   "ingredients": [
+    {
+     "needItemID": 1184,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1105,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1100,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 3
+    }
+   ]
+  },
+  {
+   "id": 1056,
+   "name": "回春丹",
+   "type": "MedicineFurnace",
+   "makeTime": 2,
+   "recipeID": 1159,
+   "ingredients": [
+    {
+     "needItemID": 1126,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1055,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 2
+    }
+   ]
+  },
+  {
+   "id": 1057,
+   "name": "回血丹",
+   "type": "MedicineFurnace",
+   "makeTime": 2,
+   "recipeID": 1158,
+   "ingredients": [
+    {
+     "needItemID": 1126,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 1
+    }
+   ]
+  },
+  {
+   "id": 1102,
+   "name": "龙虎丹",
+   "type": "MedicineFurnace",
+   "makeTime": 2,
+   "recipeID": 1161,
+   "ingredients": [
+    {
+     "needItemID": 1203,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1100,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 2
+    }
+   ]
+  },
+  {
+   "id": 1075,
+   "name": "金锭",
+   "type": "Furnace",
+   "makeTime": 3,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1078,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1118,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 3
+    }
+   ]
+  },
+  {
+   "id": 1141,
+   "name": "铁锭",
+   "type": "Furnace",
+   "makeTime": 3,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1145,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1118,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 2
+    }
+   ]
+  },
+  {
+   "id": 1146,
+   "name": "铜锭",
+   "type": "Furnace",
+   "makeTime": 3,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1147,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1118,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 2
+    }
+   ]
+  },
+  {
+   "id": 1169,
+   "name": "玄钢锭",
+   "type": "Furnace",
+   "makeTime": 3,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1170,
+     "needItemCount": 3
+    },
+    {
+     "needItemID": 1118,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 3
+    }
+   ]
+  },
+  {
+   "id": 1212,
+   "name": "焚天",
+   "type": "Forge",
+   "makeTime": 0,
+   "recipeID": 1190,
+   "ingredients": [
+    {
+     "needItemID": 1177,
+     "needItemCount": 8
+    }
+   ]
+  },
+  {
+   "id": 1211,
+   "name": "破军",
+   "type": "Forge",
+   "makeTime": 0,
+   "recipeID": 1189,
+   "ingredients": [
+    {
+     "needItemID": 1169,
+     "needItemCount": 10
+    }
+   ]
+  },
+  {
+   "id": 1210,
+   "name": "青钢剑",
+   "type": "Forge",
+   "makeTime": 0,
+   "recipeID": 1188,
+   "ingredients": [
+    {
+     "needItemID": 1141,
+     "needItemCount": 8
+    },
+    {
+     "needItemID": 1169,
+     "needItemCount": 5
+    },
+    {
+     "needItemID": 1192,
+     "needItemCount": 2
+    }
+   ]
+  },
+  {
+   "id": 1209,
+   "name": "青云剑",
+   "type": "Forge",
+   "makeTime": 0,
+   "recipeID": 1187,
+   "ingredients": [
+    {
+     "needItemID": 1141,
+     "needItemCount": 5
+    },
+    {
+     "needItemID": 1191,
+     "needItemCount": 3
+    }
+   ]
+  },
+  {
+   "id": 1216,
+   "name": "金刚甲",
+   "type": "Forge",
+   "makeTime": 0,
+   "recipeID": 1186,
+   "ingredients": [
+    {
+     "needItemID": 1141,
+     "needItemCount": 10
+    },
+    {
+     "needItemID": 1169,
+     "needItemCount": 6
+    },
+    {
+     "needItemID": 1192,
+     "needItemCount": 3
+    }
+   ]
+  },
+  {
+   "id": 1215,
+   "name": "锁子甲",
+   "type": "Forge",
+   "makeTime": 0,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1141,
+     "needItemCount": 5
+    },
+    {
+     "needItemID": 1191,
+     "needItemCount": 5
+    }
+   ]
+  },
+  {
+   "id": 1208,
+   "name": "铁剑",
+   "type": "Forge",
+   "makeTime": 0,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1141,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1116,
+     "needItemCount": 2
+    }
+   ]
+  },
+  {
+   "id": 1002,
+   "name": "霸王别姬",
+   "type": "Food",
+   "makeTime": 3,
+   "recipeID": 1010,
+   "ingredients": [
+    {
+     "needItemID": 1070,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1080,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1126,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 3
+    }
+   ]
+  },
+  {
+   "id": 1053,
+   "name": "红烧肉",
+   "type": "Food",
+   "makeTime": 2,
+   "recipeID": 1008,
+   "ingredients": [
+    {
+     "needItemID": 1130,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1139,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 2
+    }
+   ]
+  },
+  {
+   "id": 1027,
+   "name": "番茄炒蛋",
+   "type": "Food",
+   "makeTime": 2,
+   "recipeID": 1007,
+   "ingredients": [
+    {
+     "needItemID": 1156,
+     "needItemCount": 3
+    },
+    {
+     "needItemID": 1071,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 2
+    }
+   ]
+  },
+  {
+   "id": 1001,
+   "name": "包子",
+   "type": "Food",
+   "makeTime": 1,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1110,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1130,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 1
+    }
+   ]
+  },
+  {
+   "id": 1082,
+   "name": "烤鸡",
+   "type": "Food",
+   "makeTime": 1,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1080,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 1
+    }
+   ]
+  },
+  {
+   "id": 1083,
+   "name": "烤肉",
+   "type": "Food",
+   "makeTime": 1,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1130,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 1
+    }
+   ]
+  },
+  {
+   "id": 1084,
+   "name": "烤鱼",
+   "type": "Food",
+   "makeTime": 1,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1151,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 1
+    }
+   ]
+  },
+  {
+   "id": 1107,
+   "name": "馒头",
+   "type": "Food",
+   "makeTime": 1,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1110,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 1
+    }
+   ]
+  },
+  {
+   "id": 1121,
+   "name": "至尊黄金大黄鱼",
+   "type": "Food",
+   "makeTime": 4,
+   "recipeID": 1012,
+   "ingredients": [
+    {
+     "needItemID": 1024,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 4
+    }
+   ]
+  },
+  {
+   "id": 1059,
+   "name": "火锅炖大餐",
+   "type": "Food",
+   "makeTime": 4,
+   "recipeID": 1011,
+   "ingredients": [
+    {
+     "needItemID": 1130,
+     "needItemCount": 3
+    },
+    {
+     "needItemID": 1151,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1150,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 4
+    }
+   ]
+  },
+  {
+   "id": 1106,
+   "name": "麻辣小龙虾",
+   "type": "Food",
+   "makeTime": 3,
+   "recipeID": 1009,
+   "ingredients": [
+    {
+     "needItemID": 1085,
+     "needItemCount": 3
+    },
+    {
+     "needItemID": 1097,
+     "needItemCount": 1
+    },
+    {
+     "needItemID": 1153,
+     "needItemCount": 2
+    },
+    {
+     "needItemID": 1109,
+     "needItemCount": 3
+    }
+   ]
+  },
+  {
+   "id": 1026,
+   "name": "锻造台",
+   "type": "BuildingTwo",
+   "makeTime": 0,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1141,
+     "needItemCount": 5
+    },
+    {
+     "needItemID": 1146,
+     "needItemCount": 4
+    }
+   ]
+  },
+  {
+   "id": 1090,
+   "name": "炼丹炉",
+   "type": "BuildingTwo",
+   "makeTime": 0,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1141,
+     "needItemCount": 4
+    },
+    {
+     "needItemID": 1146,
+     "needItemCount": 3
+    }
+   ]
+  },
+  {
+   "id": 1129,
+   "name": "熔炉",
+   "type": "BuildingTwo",
+   "makeTime": 0,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1134,
+     "needItemCount": 30
+    },
+    {
+     "needItemID": 1145,
+     "needItemCount": 10
+    }
+   ]
+  },
+  {
+   "id": 1013,
+   "name": "喷水口",
+   "type": "BuildingOne",
+   "makeTime": 0,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1134,
+     "needItemCount": 10
+    },
+    {
+     "needItemID": 1141,
+     "needItemCount": 5
+    },
+    {
+     "needItemID": 1146,
+     "needItemCount": 5
+    }
+   ]
+  },
+  {
+   "id": 1014,
+   "name": "高级喷水口",
+   "type": "BuildingOne",
+   "makeTime": 0,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1134,
+     "needItemCount": 20
+    },
+    {
+     "needItemID": 1141,
+     "needItemCount": 10
+    },
+    {
+     "needItemID": 1075,
+     "needItemCount": 5
+    }
+   ]
+  },
+  {
+   "id": 1224,
+   "name": "灶台",
+   "type": "BuildingOne",
+   "makeTime": 0,
+   "recipeID": 0,
+   "ingredients": [
+    {
+     "needItemID": 1134,
+     "needItemCount": 30
+    }
+   ]
+  }
+ ]
+}
