@@ -120,7 +120,7 @@
 安装命令（在命令行里运行）：
 
 ```bat
-"D:/Program Files/Python310/python.exe" -m pip install PySide6==6.11.0
+python -m pip install PySide6==6.11.0
 ```
 
 ### 2.1.3 不管哪种版本，你都需要知道存档在哪
@@ -161,7 +161,7 @@ save3.png
 双击 `1.bat`，或者在命令行里：
 
 ```bat
-"D:/Program Files/Python310/python.exe" DaxiaSaveEditor.py
+python DaxiaSaveEditor.py
 ```
 
 ### 2.2.3 启动后你会看到什么？
@@ -1125,7 +1125,7 @@ def test_unlock_all_recipes():
 ### 步骤 5：跑测试
 
 ```bat
-"D:/Program Files/Python310/python.exe" -u _scaffold/smoke_test.py
+python -u _scaffold/smoke_test.py
 ```
 
 ## 6.4 二次开发：加一个新数据表
@@ -1710,7 +1710,7 @@ nuitka --standalone ^
 ## 15.1 项目目录结构
 
 ```
-G:\Python_Code\DaxiaSaveEditor\
+你的项目目录\DaxiaSaveEditor\
 ├─ DaxiaSaveEditor.py                     主程序（唯一编译源）
 ├─ icon.ico                               程序图标
 ├─ 软件升级迭代记录.md                     项目说明书 + 迭代日志
